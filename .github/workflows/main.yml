@@ -29,7 +29,7 @@ jobs:
         uses: 135e2/sync-upstream-repo@v0.1.5
         with:
           # URL of gitHub public upstream repo
-          upstream_repo: https://github.com/yangshun/tech-interview-handbook
+          upstream_repo: https://github.com/yangshun/tech-interview-handbook.git
           # repo branch to fetch
           upstream_branch: master
           # local repo branch
