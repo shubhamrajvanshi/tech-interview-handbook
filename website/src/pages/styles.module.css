@@ -58,6 +58,47 @@
   margin-top: -2rem;
 }
 
-.featuresRow .featuresRowItem {
+.featuresRow .featuresRowItemContainer {
   padding-top: 2rem;
+}
+
+.featuresRow .featuresRowItem {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 1.5rem;
+}
+
+.featuresRow .featuresRowItemTitle {
+  font-size: 1rem;
+}
+
+.featuresRow .featuresRowItemDescription {
+  font-size: 0.9rem;
+}
+
+.featuresRow .featuresRowItemLink {
+  font-size: 0.9rem;
+}
+
+.tweet {
+  font-size: 15px;
+}
+
+.tweetsSection {
+  margin-top: -2rem;
+}
+
+.tweetsSection > :global(.col) {
+  padding-top: 2rem;
+  margin-top: -2rem;
+}
+
+.tweetsSection > :global(.col) > * {
+  margin-top: 2rem;
+}
+
+.tweetMeta,
+.tweetMeta:hover {
+  color: var(--ifm-color-emphasis-700);
 }
