@@ -24,6 +24,14 @@ module.exports = {
       },
       items: [
         {href: '/introduction', label: 'Getting started', position: 'left'},
+        {
+          href: '/coding-round-overview',
+          label: 'Coding',
+        },
+        {
+          href: '/system-design',
+          label: 'System design',
+        },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/yangshun/tech-interview-handbook',
@@ -35,11 +43,13 @@ module.exports = {
           href: 'https://www.facebook.com/techinterviewhandbook',
           position: 'right',
           className: 'navbar-icon navbar-icon-facebook',
+          'aria-label': 'Facebook page',
         },
         {
           href: 'https://twitter.com/yangshunz',
           position: 'right',
           className: 'navbar-icon navbar-icon-twitter',
+          'aria-label': 'Twitter page',
         },
       ],
     },
