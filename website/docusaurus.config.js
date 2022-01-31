@@ -160,4 +160,5 @@ module.exports = {
       async: true,
     },
   ],
+  onBrokenLinks: 'log',
 };
