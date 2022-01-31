@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    {
+      "source": "/resume-parser/",
+      "destination": "https://resume-parser.vercel.app"
+    },
+    {
+      "source": "/resume-parser/:asset*",
+      "destination": "https://resume-parser.vercel.app/:asset*"
+    },
+    {"source": "/(.*)", "destination": "/"}
+  ]
+}
